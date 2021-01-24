@@ -1,0 +1,73 @@
+/*FORM ROYHAT*/
+
+.main-div {
+	display: flex;
+}
+
+.tizim {
+	width: 100px;
+	height: 20px;
+	padding: 10px;
+	background: white;
+	z-index: 1;
+	margin-top: -20px;
+	margin-left: 10px;
+}
+
+.tizim2 {
+	width: 130px;
+}
+
+.border {
+	width: 500px;
+	height: 300px;
+	border: 1px solid black;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+input {
+	width: 240px;
+	height: 25px;
+	margin-left: 120px;
+}
+
+label {
+	margin-left: 120px;
+}
+
+button {
+	width: 120px;
+	height: 30px;
+	outline: none;
+	background: silver;
+	padding: 7px;
+	border: none;
+	margin-top: 30px;
+	margin-left: 120px;
+}
+
+.border2 {
+	height: 400px;
+}
+
+/*MEDIA FILES*/
+
+/*video {
+	margin-left: 50px;
+	width: 90%;
+	height: 400px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	width: 90%;
+	margin-left: 50px;
+}
+
+hr {
+	margin-left: 50px;
+}*/

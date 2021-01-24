@@ -1,0 +1,82 @@
+body {
+	background: silver;
+}
+
+.wrapper {
+	width: 800px;
+	height: 500px;
+	background: white;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: #403f3f;
+	padding-top: 30px;
+}
+
+.first-flex-div, .second-flex-div, .third-flex-div {
+	width: 200px;
+	height: 90px;
+	border: 1px solid black;
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+	flex-wrap: wrap;
+}
+
+.first-flex-div p {
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.first-flex-div h4 {
+	text-align: center;
+	padding-top: -10px;
+	color: #7c4a4c;
+	font-family: sans-serif;
+	position: relative;
+}
+
+.first-flex-div h4:after {
+	content: '2';
+	position: absolute;
+	padding-left: 3px;
+	font-size: 10px;
+}
+
+.second-flex-div p {
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.second-flex-div h4 {
+	text-align: center;
+	padding-top: -10px;
+	color: #7c4a4c;
+	font-family: sans-serif;
+}
+
+.third-flex-div p {
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.third-flex-div h4 {
+	text-align: center;
+	padding-top: -10px;
+	color: #7c4a4c;
+	font-family: sans-serif;
+}
+
+.flex-div {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
